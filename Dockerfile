@@ -21,7 +21,7 @@ RUN pip install -r requirements.txt
 
 COPY . /devschool_app 
 
-#EXPOSE 80
+EXPOSE 80
 
 # Define environment variable
 #ENV NAME World
